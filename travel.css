@@ -1,0 +1,157 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+}
+.body{
+    max-width: 100%;
+    background-color:#e9edeb;
+    margin: 0;
+}
+.header{
+    width:100%;
+    height:60px;
+    display:flex;
+    justify-content: space-between;
+    background-color: white
+}
+.header-left{
+width: 100px;
+max-height: 50px;
+
+}
+.header-left ul {
+list-style: none;
+left:0;
+top:0;
+color: red;
+max-height: 50px;
+max-width: 80px;
+display:flex;
+justify-content: space-between;
+}
+.header i {
+    line-height: 60px;
+}
+/* content */
+
+/* img-location */
+.content{
+    max-width: 100%;  
+}
+.img-location{
+    height: 370px;
+    max-width: 100%;
+    margin: 12px;
+    position: relative; 
+
+}
+.img-location img{
+height: 370px;
+max-width: 100%;
+max-height: 370px;
+}
+.img-location p{
+    color: white;
+    font-size:20px;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 0px;
+    position: absolute;
+}
+
+/* info-travel */
+.info-travel{
+    height: 430px;
+    max-width: 100%;
+    margin: 12px;
+    background-color:white;
+}
+.info-travel img{
+max-width: 100%;
+height: 250px;
+}
+.info-travel h3,
+.info-travel p,
+.info-travel button,
+.info-travel div {
+padding-left: 10px;
+}
+.info-travel div{
+    opacity: 0.7;
+}
+.info-travel button{
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+/* subscribe */
+.subscribe{
+    max-width: 100%;
+    height:230px;
+    background-color:black;
+    opacity:0.7;
+    color:white;
+    padding:20px;
+    margin:10px;
+    font-size:15px;
+   
+}
+.subscribe:hover{
+    opacity:1;
+}
+.subscribe input{
+    height: 30px;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    /* margin:20px; */
+}
+.subscribe button{
+    height: 35px;
+    width: 90px;
+    color:white;
+    background-color:red;
+    cursor: pointer;
+    border:0;
+}
+.subscribe button:hover{
+    color:black;
+    background-color:#e9edeb;
+}
+
+/* contact */
+.contact{
+    /* width: 100%; */
+    max-width: 100%;
+    height: 500px;
+    background-color:#e9edeb;
+    margin: 10px;
+    font-size: 20px;
+}
+.contact input{
+    height: 30px;
+    width: 100%;
+    max-width: 100%;
+    /* margin: 10px; */
+    margin-bottom: 20px;
+    
+}
+.contact i{
+    width: 30px;
+    margin-bottom: 15px;
+}
+.contact button{
+    height: 40px;
+    width: 30%;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: 0;
+}
+.contact button:hover{
+    background-color: #ccc;
+    color: black;
+}
