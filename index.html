@@ -30,20 +30,20 @@
 
         <div class="main-headerPC">
             <div class="control-headerpc">
-                <div class="control-flight  " >
-                    <button class="control activecontrol">
+                <div class="control-flight" >
+                    <button class="control fli" style="background-color: red;">
                         <i class="fa-solid fa-plane"></i>
                         Flight
                     </button>
                 </div>
                 <div class="control-hotel">
-                    <button class="control">
+                    <button class="control hol">
                         <i class="fa-solid fa-bed"></i>
                         Hotel
                     </button>
                 </div>
                 <div class="control-rental ">
-                    <button class="control">
+                    <button class="control ren">
                         <i class="fa-solid fa-car"></i>                   
                         Rental
                     </button>
@@ -87,12 +87,8 @@
 
             </div>
             
-
         </div>
 
-        
-
-        
     </div>
 
     <!-- content -->
@@ -110,25 +106,29 @@
             </div>
 
             <div class="location-right">
-               
-                    <div class="img-location">
-                        <img src="./img/img-travel2.jpg" alt="">
-                        <p>New York</p>
+                    <div class="img-locationtop">
+                        <div class="img-location">
+                            <img src="./img/img-travel2.jpg" alt="">
+                            <p>New York</p>
+                        </div>
+                        <div class="img-location">
+                            <img src="./img/img-travel3.jpg" alt="">
+                            <p>San Francisco</p>
+                        </div>
                     </div>
-                    <div class="img-location">
-                        <img src="./img/img-travel3.jpg" alt="">
-                        <p>San Francisco</p>
-                    </div>
+                    
 
-                    <div class="img-location">
-                        <img src="./img/img-travel4.jpg" alt="">
-                        <p>Pisa</p>
+                    <div class="img-locationbottom">
+                        <div class="img-location">
+                            <img src="./img/img-travel4.jpg" alt="">
+                            <p>Pisa</p>
+                        </div>
+                        <div class="img-location left">
+                            <img src="./img/img-travel5.jpg" alt="">
+                            <p>Paris</p>
+                        </div>
                     </div>
-                    <div class="img-location left">
-                        <img src="./img/img-travel5.jpg" alt="">
-                        <p>Paris</p>
-                    </div>
-                
+   
             </div>
 
         </div>
@@ -177,10 +177,14 @@
         <br>
         <i class="fa-solid fa-envelope"></i>
         Email: mail@gmail.com
-        <input type="text" placeholder="Name">
-        <input type="text" placeholder="Email">
-        <input type="text" placeholder="Message">
-        <button>SEN MESSAGE</button>
+        <form action="/action_page.php" target="_blank">
+        <input type="text" placeholder="Name" required>
+        <input type="text" placeholder="Email" required>
+        <input type="text" placeholder="Message" required>
+        <button type="submit">SEN MESSAGE</button>
+        </form>
+        
+        
     </div>
 
 
@@ -196,14 +200,7 @@
     </div>
 </div>
 
-
 <script src="./travel.js"></script>    
-
-<script>
-    Validator({
-
-    })
-</script>
 
 </body>
 </html>

@@ -104,6 +104,9 @@ padding-left: 10px;
 }
 
 
+
+
+
 @media(min-width:770px){
     /* .content{
         max-width: 100%;    
@@ -151,6 +154,25 @@ padding-left: 10px;
         height: 150px;
         width: 300px;
     }
+    .img-locationtop{
+        display: flex;
+        max-width: 100%;
+        align-items:center;
+        justify-content: space-evenly;
+
+    }
+    .img-locationbottom{
+        display: flex;
+        max-width: 100%;
+        align-items:center;
+        justify-content: space-evenly;
+    }
+
+    .img-location img{
+        flex: 1; 
+    }   
+
+
 
 
     .main-travel{
@@ -215,19 +237,10 @@ padding-left: 10px;
         border:0;
         background-color: black;
         color: white;
-
-    }
-    .control-headerpc button:hover{
         cursor: pointer;
-        background-color: #f1f1f1;
-        color: black;
     }
-    .activecontrol{
-        background-color: red;
-        color: white;
-    }
+   
 
-    
 
     .flight{
         max-width: 100%;
@@ -342,13 +355,6 @@ padding-left: 10px;
         /* background-color: red; */
         /* color: white; */
     }
-    
- 
- 
-
-
-
- 
 
 }
 
